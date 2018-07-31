@@ -14,7 +14,7 @@ Bien choisir le nom des images : en minuscules, sans espace ni accent. Par exemp
 
 ## Insérer une image
 
-###Insertion d’une image
+### Insertion d’une image
 Il faut utiliser la balise `<img />`. C’est une balise orpheline. 2 attributs sont obligatoires :
 - `src` : pour indiquer où se trouve l’image. Il faut indiquer soit le chemin absolu, soit le chemin relatif
 `alt` : texte alternatif. On doit toujours indiquer un texte alternatif qui est un court texte qui décrit ce que contient l’image. Ce texte sera affiché à la place de l’image si celle-ci ne peut pas être téléchargé ou dans les navigateurs de personnes handicapées. Pour une image de fleur, on mettrait par exemple `alt=”Une fleur”`.
