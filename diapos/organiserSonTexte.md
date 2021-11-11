@@ -19,7 +19,8 @@ Il est possible d’écrire un deuxième paragraphe pour aller à la ligne.
 ```
 Il est aussi possible d’utiliser une balise orpheline à l’intérieur d’un paragraphe pour aller à la ligne :
 ```html
-<br />
+<br /> <!-- forme historique -->
+<br>
 ```
 
 ----
@@ -93,3 +94,22 @@ Une liste ordonnée fonctionne de la même façon, il faut juste remplacer `<ul>
 3. Je retourne me coucher.
 
 Pour information, il existe un troisième type de liste beaucoup plus rare : la liste de définition avec les balises `<dl>` `<dt>` et `<dd>`.
+
+### Les entités
+
+Certains caractères spéciaux sont réservés pour une utilisation en HTML, ils seront analysés en tant que code HTML : `&`, `<`, `>` `"`.
+
+Pour afficher ces caractères comme du texte, il faut les remplacer par l'entité du caractère correspondant :
+- `&` = `&amp;`
+- `<` = `&lt;`
+- `>` = `&gt;`
+- `"` = `&quot;`
+- espace insécable (permet de cumuler des espaces) = `&nbsp;`
+
+### Autres balises
+
+- la balise `<pre>` représente du texte préformaté, comme des formules mathématiques. Les espaces et les sauts de lignes sont conservés
+- la balise `<hr>` permet de faire un séparateur horizontal
+- la balise `<blockquote>` permet de définir une citation
+- la balise `<sup>` permet de mettre en exposant
+- la balise `<code>` représente un fragment de code machine
