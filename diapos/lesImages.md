@@ -3,9 +3,10 @@
 ----
 
 ## Les différents formats d’images
-utiliser le JPEG pour les photos  
-utiliser le PNG pour les graphiques  
-utiliser le GIF animé pour les images animées  
+- le JPEG pour les photos
+- le PNG pour les graphiques
+- le GIF animé pour les images animées (privilégier les vidéos)
+- le SVG est utilisé uniquement pour des formes simples, comme les logos
 
 Bannir les autres formats comme le BMP.  
 Bien choisir le nom des images : en minuscules, sans espace ni accent. Par exemple : mon_image.png.
@@ -17,7 +18,8 @@ Bien choisir le nom des images : en minuscules, sans espace ni accent. Par exemp
 ### Insertion d’une image
 Il faut utiliser la balise `<img />`. C’est une balise orpheline. 2 attributs sont obligatoires :
 - `src` : pour indiquer où se trouve l’image. Il faut indiquer soit le chemin absolu, soit le chemin relatif
-`alt` : texte alternatif. On doit toujours indiquer un texte alternatif qui est un court texte qui décrit ce que contient l’image. Ce texte sera affiché à la place de l’image si celle-ci ne peut pas être téléchargé ou dans les navigateurs de personnes handicapées. Pour une image de fleur, on mettrait par exemple `alt=”Une fleur”`.
+- `alt` : texte alternatif. On doit toujours indiquer un texte alternatif qui est un court texte qui décrit ce que contient l’image. Ce texte sera affiché à la place de l’image si celle-ci ne peut pas être téléchargé ou dans les navigateurs de personnes handicapées. Pour une image de fleur, on mettrait par exemple `alt=”Une fleur”`
+- `width` et `height` permettent de modifier la largeur et hauteur intrasèque de l'image, en pixels (nombre sans unités). Il est préférable de retailler l'image pour qu'elle ait directement la bonne taille
 
 Les images doivent se trouver obligatoirement à l’intérieur d’un paragraphe.
 ```html
