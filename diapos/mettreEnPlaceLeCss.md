@@ -163,9 +163,7 @@ En CSS, pour définir les propriétés d’un attribut id, il faut faire précé
 Pour ne pas mélanger les deux, il faut retenir que deux balises peuvent avoir le même nom avec l’attribut class. Un nom d’id doit en revanche être unique dans la page HTML.
 
 ### Les balises universelles
-Le problème de class et id est que ce sont des attributs et qu’ils s’appliquent donc à une balise entière comme un paragraphe. Si on souhaite modifier uniquement un mot dans le paragraphe, il faut donc utiliser une des deux balises qui ne servent à rien, c’est à dire qui n’ont aucune signification particulière, qui sont dites universelles. Il y a une différence entre ces deux balises :
-- `<span></span>` : c’est une balise de type inline, c’est-à-dire que l’on place au sein d’un paragraphe de texte pour sélectionner certains mots uniquement, comme les balises `<strong>` et `<em>`.
-- `<div></div>` : c’est une balise de type block, qui entoure un bloc de texte, comme les balises `<p>` et `<h1>`. Ces balises créent un nouveau bloc dans la page et provoque donc un retour à la ligne. `<div>` est fréquemment utilisée dans la construction d’un design, comme nous le verrons plus tard.
+Le problème de class et id est que ce sont des attributs et qu’ils s’appliquent donc à une balise entière comme un paragraphe. Si on souhaite modifier uniquement un mot dans le paragraphe, il faut donc utiliser `<span>` par exemple, ou `<div>` dans d'autres cas.
 
 Seul le mot bienvenue va s’écrire en bleu.
 HTML :

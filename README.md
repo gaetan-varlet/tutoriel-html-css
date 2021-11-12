@@ -7,6 +7,8 @@
   - [Créer des liens](diapos/creerDesLiens.md)
   - [Les images](diapos/lesImages.md)
   - [Les inline frames](diapos/iframe.md)
+  - [Les divs et spans](diapos/divEtSpan.md)
+  - [Les outils de développement](diapos/outilsDev.md)
 - La mise en forme avec CSS
   - [Mettre en place le CSS](diapos/mettreEnPlaceLeCss.md)
   - [Formatage du texte](diapos/formatageDuTexte.md)
