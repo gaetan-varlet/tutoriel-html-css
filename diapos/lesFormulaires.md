@@ -1,5 +1,5 @@
 # Les formulaires
-Les pages HTML peuvent être enrichie avec des formulaires interactifs qui invitent les visiteurs à renseigner des informations : saisir du texte, sélectionner des options, valider avec un bouton…  
+Les pages HTML peuvent être enrichies avec des formulaires interactifs qui invitent les visiteurs à renseigner des informations : saisir du texte, sélectionner des options, valider avec un bouton…  
 Cependant, pour analyser les informations saisies, cela ne se fait pas en HTML, mais dans d’autres langages serveur comme par exemple le PHP.
 
 
@@ -67,6 +67,9 @@ On peut ajouter d’autres attributs à la balise `<input />` pour personnaliser
 - **maxlength** : limiter le nombre de caractères que l’on peut saisir
 - **value** : pré-remplir le champ avec valeur par défaut
 - **placeholder** : indication sur le contenu du champ écrit en grisé qui disparaîtra quand le visiteur aura cliqué à l’intérieur du champ
+- **disabled** permet de désactiver un champ pour qu'il ne soit pas modifiable
+- **autocomplete** permet d'activer/désactiver l'autocomplétion
+
 
 ```html
 <form method="post" action="traitement.php">
@@ -273,3 +276,7 @@ On peut changer le texte affiché à l’intérieur des boutons avec l’attribu
 ```
 
 En cliquant sur le bouton, le formulaire nous amène alors à la page indiquée dans l’attribut action. On ne peut pas créer cette page seulement en HTML. Il est nécessaire d’apprendre un langage serveur pour récupérer les informations saisies et décider quoi en faire.
+
+### Divers
+
+- `<input type="hidden">` permet de cacher le champ
