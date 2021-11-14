@@ -221,8 +221,9 @@ A l’intérieur du select, une paire de balise `<option>` par choix possible av
 </form>
 ```
 
-Si vous voulez qu’une option soit sélectionné par défaut, utilisez l’attribut **selected**.
-On peut aussi grouper les options avec la balise `<optgroup></optgroup>`. Les groupes ne peuvent pas être sélectionné, ils servent juste à mieux organiser les différentes options.
+- Si vous voulez qu’une option soit sélectionné par défaut, utilisez l’attribut **selected**
+- On peut aussi grouper les options avec la balise `<optgroup></optgroup>`. Les groupes ne peuvent pas être sélectionné, ils servent juste à mieux organiser les différentes options
+- il est possible de sélectionner plusieurs valeur avec l'option **multiple** sur le `select`
 
 ----
 
@@ -269,6 +270,7 @@ Il reste à créer le bouton d’envoi avec la balise `<input />`. Il en existe 
 - `type=”reset”` : remise à zéro du formulaire
 - `type=”image”` : équivalent du bouton submit, présenté cette fois sous forme d’image. Ajoutez l’attribut src pour indiquer l’URL de l’image
 - `type=”button”` : bouton générique qui n’aura par défaut aucun effet. En général, ce bouton est géré en JavaScript pour exécuter des actions sur la page.
+- `type="file"` : permet de sélectionner un ou plusieurs fichiers sur l'ordinateur et de les uploader vers un serveur
 
 On peut changer le texte affiché à l’intérieur des boutons avec l’attribut value.
 ```html
