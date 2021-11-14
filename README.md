@@ -8,6 +8,9 @@
   - [Les images](diapos/lesImages.md)
   - [Les inline frames](diapos/iframe.md)
   - [Les divs et spans](diapos/divEtSpan.md)
+  - [Les tableaux](diapos/lesTableaux.md)
+  - [Les formulaires](diapos/lesFormulaires.md)
+  - [La vidéo et l'audio](diapos/laVideoEtLAudio.md)
   - [Les outils de développement](diapos/outilsDev.md)
 - La mise en forme avec CSS
   - [Mettre en place le CSS](diapos/mettreEnPlaceLeCss.md)
@@ -21,12 +24,7 @@
   - [La mise en page avec Flexbox](diapos/laMiseEnPageAvecFlexbox.md)
   - [Quelques autres techniques de mise en page](diapos/quelquesAutresTechniquesDeMiseEnPage.md)
   - [TP : création d’un site pas à pas](diapos/tpCreationDUnSitePasAPas.md)
-- Fonctionnalités évoluées
-  - [Les tableaux](diapos/lesTableaux.md)
-  - [Les formulaires](diapos/lesFormulaires.md)
-  - [La vidéo et l'audio](diapos/laVideoEtLAudio.md)
   - [Le responsive design avec les Media Queries](diapos/leResponsiveDesignAvecLesMediaQueries.md)
-  - [Aller plus loin](diapos/allerPlusLoin.md)
 - Annexes
-  - [Envoyer votre site sur le Web](diapos/envoyerVotreSiteSurLeWeb.md)
   - [Divers](diapos/divers.md)
+  - [Aller plus loin](diapos/allerPlusLoin.md)
