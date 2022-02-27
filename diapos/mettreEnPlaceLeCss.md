@@ -119,11 +119,11 @@ Si l’on souhaite appliquer la même présentation à deux balises, on peut com
 ```css
 h1, em
 {
-    color: blue;
+    color: blue; /* Des commentaires dans du CSS */
 }
 ```
 
-**Des commentaires dans du CSS** : il suffit de mettre du texte entre /\* et \*/
+
 
 ----
 
