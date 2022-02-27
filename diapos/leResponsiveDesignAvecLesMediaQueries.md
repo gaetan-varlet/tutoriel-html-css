@@ -1,15 +1,19 @@
 # Le responsive design avec les Media Queries
+
 Les media queries sont des règles à appliquer pour changer le design d’un site en fonction des caractéristiques de l’écran. On peut donc charger des styles CSS différents. Grâce à cette technique, nous pourrons créer un design qui s’adapte automatiquement à l’écran de chaque visiteur !
 
 ---
 
 ## Mise en place des media queries
 
-C’est une nouveauté de CSS3. Ce n’est pas une propriété mais des règles que l’on peut appliquer dans certaines conditions, comme dire si la résolution de l’écran du visiteur est inférieure à tant, alors applique les propriétés CSS suivantes. Il est alors possible de changer l’apparence du site comme augmenter la taille du texte, changer la couleur de fond, position différemment le menu, etc…
-Les conditions sont la résolution mais on peut aussi utiliser le type d’écran (smartphone, télévision, projecteur…), le nombre de couleurs, l’orientation de l’écran (portrait ou paysage), etc…
+- C’est une nouveauté de CSS3. Ce n’est pas une propriété mais des règles que l’on peut appliquer dans certaines conditions, comme dire si la résolution de l’écran du visiteur est inférieure à tant, alors applique les propriétés CSS suivantes. Il est alors possible de changer l’apparence du site comme augmenter la taille du texte, changer la couleur de fond, positionner différemment le menu, etc...
+- Les conditions sont la résolution mais on peut aussi utiliser le type d’écran (smartphone, télévision, projecteur…), le nombre de couleurs, l’orientation de l’écran (portrait ou paysage), etc…
 
 **Appliquer une media query**
-Les media queries sont donc des règles qui indiquent quand on doit appliquer des propriétés CSS. Il y a deux façons de les utiliser :
+
+Les media queries sont donc des règles qui indiquent quand on doit appliquer des propriétés CSS.
+
+Il y a deux façons de les utiliser :
 - en chargeant une feuille de style .css différente en fonction de la règle, par exemple, si la résolution est inférieure à 1280px de large, charge le fichier *petite_resolution.css*. On ajoute une deuxième balise `<link />` pour charger le fichier CSS
 ```html
 <!-- Pour tout le monde -->
