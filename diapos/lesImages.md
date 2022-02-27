@@ -78,6 +78,7 @@ Une figure est le plus souvent accompagné d’une légende. Il faut utiliser la
 ```
 
 ### Bien comprendre le rôle des figures
-Il faut plutôt placer une image dans un paragraphe si elle n’apporte aucune information, que c’est juste une illustration pour décorer.
-Il faut la placer dans une figure si elle apporte de l’information.
-En effet la balise `<figure>` a un rôle avant tout sémantique, cela veut dire qu’elle indique à l’ordinateur que l’image a du sens et qu’elle est importante pour la bonne compréhension du texte.
+
+- Il faut plutôt placer une image dans un paragraphe si elle n’apporte aucune information, que c’est juste une illustration pour décorer.
+- Il faut la placer dans une figure si elle apporte de l’information.
+- En effet la balise `<figure>` a un rôle avant tout **sémantique**, cela veut dire qu’elle indique à l’ordinateur que l’image a du sens et qu’elle est importante pour la bonne compréhension du texte.

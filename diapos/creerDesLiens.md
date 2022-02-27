@@ -1,5 +1,6 @@
 # Créer des liens
-Il est nécessaire de créer des liens pour aller d’une page à une autre
+
+Les liens permettent d'aller d’une page à une autre
 
 ----
 
@@ -39,7 +40,7 @@ Si c’est dans un dossier parent :
 ## Un lien vers une ancre
 Une ancre est un point de repère que l’on met dans une page HTML lorsqu’elle est longue. Il peut être utile de faire un lien amenant plus bas dans la page.
 Pour créer une ancre, il suffit de rajouter l’attribut id à une balise qui va servir de repère.
-Ensuite, il faut créer un lien avec un # dans l’attribut href.
+Ensuite, il faut créer un lien avec un `#` dans l’attribut href.
 ```html
 <h2 id="mon_ancre">Titre</h2>
 <a href="#mon_ancre">Aller vers l'ancre</a>
