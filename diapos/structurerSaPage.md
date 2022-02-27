@@ -3,7 +3,7 @@
 - Il est conseillé d’utiliser des balises HTML dédiées à la structuration du site
 - Elles ont été introduites en HTML5 et permettent de distinguer l’en-tête, le menu de navigation, etc...
 
-Les différentes balises :
+## Les différentes balises :
 - `<header>` : en-tête
   - généralement une grande bande placée en travers au haut de la page avec un titre ou un logo
 - `<nav>` : liens principaux de navigation
@@ -29,6 +29,7 @@ Ces balises peuvent être imbriquées les unes dans les autres. Par exemple, une
 
 Ces balises ne s’occupent pas de la mise en page, ce sera fait en CSS. Elles servent uniquement à bien structurer la page et à indiquer à l’ordinateur le sens du texte qu’elles contiennent. On pourrait très bien placer l’en-tête en bas de la page si on le souhaite.
 
+## Exemple
 
 ![Structure d'une page HTML](images/structurePage.png "les différentes sections d'une page HTML")
 
