@@ -98,7 +98,7 @@ Il s'agit d'informations sur la page web : les métadonnées du document
 - la table Windows-1252, utilise 8 bits, contient donc d'autres caractères, notamment les caratères accentués européens
 - chaque pays avait son propre encodage, pour simplifier la compatibilité est arrivée le **jeu de caractères** **Unicode** qui contient tous les caractères du monde (ce n'est pas un encodage)
 - il est basé sur les 128 premiers caractères ASCII
-- le symbole euro n'est pas à la même position en Unicode (position 8364) qu'en Windows-1252 (position 128)
+- le symbole `€` n'est pas à la même position en Unicode (position 8364) qu'en Windows-1252 (position 128)
 - l'encodage **UTF-8** va représenter les nombres de 0 à 127 sur 1 seul octet, à partir d'une certaine valeur 2 octets, puis 3 octets et 4 octets
 - il y a un nombre dynamique d'octets selon le caractère à représenter, pour éviter d'encoder tous les caractères sur plusieurs octets pour ne pas utiliser de l'espace inutilement
 - pour savoir si le caractère est représenté par un ou plusieurs octets, on utilise les premiers bits d'un octet
