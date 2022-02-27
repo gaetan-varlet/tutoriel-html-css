@@ -21,9 +21,12 @@ Pour modifier, la taille, on utilise la propriété CSS **font-size**.
 ----
 
 ## La police
-Pour qu’une police s’affiche, il faut que l’internaute l’ait, sinon le navigateur prendra une police par défaut. Depuis CSS3, il est possible de faire télécharger automatiquement une police au navigateur.
-Pour indiquer la police à utiliser, il faut utiliser la propriété **font-family**. Il est possible d’indiquer plusieurs noms de police pour éviter si l’internaute n’a pas la même police que vous. Le navigateur essaiera d’abord d’utiliser la police1 puis la police2…
-En général, on indique en tout dernier serif qui correspond à une police par défaut. Il existe aussi une police par défaut appelé sans-serif qui n’a pas de petites pattes de liaisons en bas des lettres.
+
+- Pour qu’une police s’affiche, il faut que l’internaute l’ait, sinon le navigateur prendra une police par défaut.
+- Depuis CSS3, il est possible de faire télécharger automatiquement une police au navigateur.
+- Pour indiquer la police à utiliser, il faut utiliser la propriété **font-family**. Il est possible d’indiquer plusieurs noms de police pour éviter si l’internaute n’a pas la même police que vous. Le navigateur essaiera d’abord d’utiliser la police1 puis la police2…
+- En général, on indique en tout dernier serif qui correspond à une police par défaut. Il existe aussi une police par défaut appelé sans-serif qui n’a pas de petites pattes de liaisons en bas des lettres.
+
 ```css
 balise
 {
@@ -40,14 +43,16 @@ Il est possible d’utiliser une police personnalisée avec `@font-face`.
 ## Italique, gras, souligné
 
 ### Mettre en italique
+
 La balise `<em>` sert à mettre en valeur un mot mais pas à le mettre en italique. La plupart des navigateurs font cela mais ce n’est pas une obligation.
 Le CSS lui, permet de dire réellement je veux que ce texte soit en italique.
 On utilise la propriété **font-style** qui peut prendre trois valeurs :
 - *italic* : texte en italique
 - *oblique* : texte en oblique (légèrement différent de l’italique)
-- *normal* : texte normal (par défaut). Cela permet d’annuler une mise en italique car par exemple si on ne veut pas que les textes entre <em> ne soient pas en italique.
+- *normal* : texte normal (par défaut). Cela permet d’annuler une mise en italique car par exemple si on ne veut pas que les textes entre `<em>` ne soient pas en italique.
 
 ### Mettre en gras
+
 Encore une fois, ce n’est pas `<strong>` qui permet de mettre en gras.
 La propriété CSS pour mettre en gras est **font-weight** et prend les valeurs suivantes :
 - *bold* : texte en gras
