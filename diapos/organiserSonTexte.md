@@ -70,17 +70,16 @@ Il y a 6 niveau de titres en HTML de très important à moins important :
 ----
 
 ## Les listes
-Les listes permettent de mieux structurer notre texte et d’ordonner nos informations. Nous allons découvrir deux types de listes :
+
+Les listes permettent de mieux structurer notre texte et d’ordonner nos informations. Il existe 3 types de liste :
 - les listes non ordonnées ou listes à puces
 - les listes ordonnées ou listes numérotées ou encore énumérations
+- les listes de descriptions
 
 ### Liste non ordonnée
+
 C’est une liste sans notion d’ordre. Il est possible de faire des listes dans les listes.
 
-exemple :
-- Fraises
-- Framboises
-- Cerises
 ```html
 <ul>
     <li>Fraises</li>
@@ -89,7 +88,12 @@ exemple :
 </ul>
 ```
 
+- Fraises
+- Framboises
+- Cerises
+
 ### Liste ordonnée
+
 Une liste ordonnée fonctionne de la même façon, il faut juste remplacer `<ul></ul>` par `<ol></ol>`.
 ```html
 <ol>
@@ -102,7 +106,19 @@ Une liste ordonnée fonctionne de la même façon, il faut juste remplacer `<ul>
 2. Je mange et je bois.
 3. Je retourne me coucher.
 
-Pour information, il existe un troisième type de liste beaucoup plus rare : la liste de définition avec les balises `<dl>` `<dt>` et `<dd>`.
+### Liste de descriptions
+
+La liste de description/définition avec les balises `<dl>`, `<dt>` et `<dd>`.
+
+```html
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+```
 
 ### Les entités
 
