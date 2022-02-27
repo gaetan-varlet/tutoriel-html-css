@@ -1,7 +1,5 @@
 # Les outils de développement
 
-----
-
 ## L'inspecteur et la console
 
 - l'inspecteur est un outil des navigateurs qui permet de voir le code source des pages web, de cibler un élément pour voir son code, et éventuellement corriger des erreurs, ou faire des tests de modification de code HTML/CSS
