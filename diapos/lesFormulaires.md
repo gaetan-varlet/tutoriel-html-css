@@ -1,7 +1,7 @@
 # Les formulaires
+
 Les pages HTML peuvent être enrichies avec des formulaires interactifs qui invitent les visiteurs à renseigner des informations : saisir du texte, sélectionner des options, valider avec un bouton…  
 Cependant, pour analyser les informations saisies, cela ne se fait pas en HTML, mais dans d’autres langages serveur comme par exemple le PHP.
-
 
 ----
 

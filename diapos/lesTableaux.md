@@ -1,7 +1,5 @@
 # Les tableaux
 
-----
-
 ## Un tableau simple
 
 ### Un premier tableau
