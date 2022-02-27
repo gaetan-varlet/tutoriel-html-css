@@ -81,7 +81,7 @@ p
 On peut ajouter une cinquième valeur facultative : **inset**. Dans ce cas, l’ombre sera placée à l’intérieur du bloc, pour donner un effet enfoncé.
 
 
-### text-shadow : l’ombre du texte
+### text-shadow : l’ombre du texte
 Avec la propriété **text-shadow**, il est possible d’ajouter une ombre directement sur les lettres du texte. Les valeurs fonctionnent exactement de la même façon que box-shadow.
 ```css
 p
