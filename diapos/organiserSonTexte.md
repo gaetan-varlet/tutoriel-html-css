@@ -25,14 +25,16 @@ Il est aussi possible d’utiliser une balise orpheline à l’intérieur d’un
 ----
 
 ## Les titres
+
 Il y a 6 niveau de titres en HTML de très important à moins important :
 ```html
 <h1> </h1> <!-- titre très important, en général pour afficher le titre de la page au début de celle-ci -->
 <h6> </h6>
 ```
-En général, 3 niveaux de titres suffisent.  
-Il ne faut pas choisir la balise en fonction de la taille qu’elle applique, il faut impérativement commencer par h1 puis h2. La taille du texte se modifie en CSS. Grâce au langage CSS, nous pourrons dire que je veux que mes titres h1 soient centrés, rouges et soulignés.
-**Le langage HTML sert uniquement à rédiger le contenu de la page, la mise en forme se fera avec le langage CSS.**
+
+- en général, 3 niveaux de titres suffisent
+- il ne faut pas choisir la balise en fonction de la taille qu’elle applique, il faut impérativement commencer par h1 puis h2. La taille du texte se modifie en CSS. Grâce au langage CSS, nous pourrons dire que je veux que mes titres h1 soient centrés, rouges et soulignés
+- **le langage HTML sert uniquement à rédiger le contenu de la page, la mise en forme se fera avec le langage CSS**
 
 ----
 
