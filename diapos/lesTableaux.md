@@ -3,7 +3,9 @@
 ## Un tableau simple
 
 ### Un premier tableau
-La première balise à connaître est `<table></table>`. Elle permet d’indiquer le début et la fin d’un tableau. C’est une balise de type bloc, il faut donc la placer en dehors d’un paragraphe.
+
+- Les balises `<table></table>` permettent d’indiquer le début et la fin d’un tableau
+- C’est une balise de type bloc, il faut donc la placer en dehors d’un paragraphe
 
 ```html
 <p>Ceci est un paragraphe avant le tableau.</p>
@@ -15,7 +17,9 @@ La première balise à connaître est `<table></table>`. Elle permet d’indique
 <p>Ceci est un paragraphe après le tableau.</p>
 ```
 
-`<tr></tr>` indique le début et la fin d’une ligne du tableau, `<td></td>` indique le début et la fin du contenu d’une cellule. En HTML, un tableau se construit ligne par ligne et dans chaque ligne, on indique le contenu des différentes cellules.
+- `<tr></tr>` indique le début et la fin d’une ligne du tableau
+- `<td></td>` indique le début et la fin du contenu d’une cellule
+- En HTML, un tableau se construit ligne par ligne et dans chaque ligne, on indique le contenu des différentes cellules
 
 ```html
 <table>
@@ -47,8 +51,8 @@ td /* Toutes les cellules des tableaux... */
 ![Premier tableau](images/tableau2.png)
 
 Pour avoir une seule bordure entre deux cellules, il faut utiliser une propriété CSS spécifique aux tableaux, **border-collapse**, qui signifie coller les bordures entre elles. Elles peut prendre deux valeurs :
-collapse : bordures collés entre elles
-separate : bordures dissociées (par défaut)
+- collapse : bordures collés entre elles
+- separate : bordures dissociées (par défaut)
 
 ```css
 table
