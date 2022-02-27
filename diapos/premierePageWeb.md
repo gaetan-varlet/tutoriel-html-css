@@ -36,7 +36,7 @@ Dans les balises fonctionnant par paire, on ne met les attributs que dans la bal
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <!-- En-tête de la page -->
         <meta charset="utf-8" />
@@ -49,11 +49,12 @@ Dans les balises fonctionnant par paire, on ne met les attributs que dans la bal
 </html>
 ```
 
-`!DOCTYPE`  dit qu’il s’agit d’une page web HTML5.  
-`html` englobe tout le contenu de la page.  
-Une page web est constitué de 2 parties :
-- l’en-tête (head) : donne des informations sur la page comme le titre, l’encodage. Ces informations ne sont pas affichés sur la page, ce sont des informations à destination de l’ordinateur. Le contenu de la balise title s’affiche dans l’onglet du navigateur.
-- le corps (body) : c’est là que se trouve la partie principale de la page. Tout ce que nous écrivons ici sera affiché à l’écran.
+- `!DOCTYPE`  dit qu’il s’agit d’une page web HTML5
+- `html` englobe tout le contenu de la page.
+    - `lang="fr"` permet aux synthèses vocales d'adopter le bon accent
+- Une page web est constitué de 2 parties :
+    - l’en-tête (head) : donne des informations sur la page comme le titre, l’encodage. Ces informations ne sont pas affichés sur la page, ce sont des informations à destination de l’ordinateur. Le contenu de la balise title s’affiche dans l’onglet du navigateur.
+    - le corps (body) : c’est là que se trouve la partie principale de la page. Tout ce que nous écrivons ici sera affiché à l’écran.
 
 Il est possible d’écrire des commentaires avec les balises. Tout le monde peut voir nos commentaires et tout le code HTML.
 ```html
