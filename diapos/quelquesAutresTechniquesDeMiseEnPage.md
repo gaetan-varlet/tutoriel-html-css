@@ -1,11 +1,13 @@
 # Quelques autres techniques de mise en page
+
 Même si flexbox est le meilleur outil de mise en page, il est important de connaître les autres techniques de mise en page, notamment pour gérer un “vieux” code.
 
 ----
 
 ## Le positionnement flottant
-Nous avons vu la propriété **float** pour faire flotter une image autour du texte, comme la première lettre d’un texte en image.
-Il se trouve que cette propriété est aujourd’hui utilisée par la majorité des sites web pour faire de la mise en page, par exemple pour placer le menu à gauche et le contenu de la page à droite. C’est a priori un bon moyen mais cette propriété n’a pas été conçue pour faire de la mise en page, elle a donc quelques défauts.
+
+- Nous avons vu la propriété **float** pour faire flotter une image autour du texte, comme la première lettre d’un texte en image.
+- Il se trouve que cette propriété est aujourd’hui utilisée par la majorité des sites web pour faire de la mise en page, par exemple pour placer le menu à gauche et le contenu de la page à droite. C’est a priori un bon moyen mais cette propriété n’a pas été conçue pour faire de la mise en page, elle a donc quelques défauts.
 
 Nous avons un menu (nav) que nous allons essayer de placer à gauche et le reste du texte (section) à droite, avec un menu de 150 pixels de large. Nous ajoutons une bordure pour bien les distinguer.
 
@@ -44,7 +46,9 @@ A l’inverse, pour qu’un élément soit obligatoirement placé sous le menu, 
 ----
 
 ## Transformez vos éléments avec display
+
 On va apprendre à modifier les lois du CSS !
+
 Il existe en CSS une propriété très puissante : **display**. Elle est capable de transformer n’importe quel élément d’une page d’un type vers un autre, par exemple d’imposer aux liens (a) de type inline à apparaître sous forme de block.
 ```css
 a
@@ -54,6 +58,7 @@ a
 ```
 
 Les liens vont donc se positionner les uns en-dessous des autres (comme des blocs normaux) et il devient possible de modifier leurs dimensions.
+
 Voici quelques-unes des principales valeurs que peut prendre la propriété **display** en CSS :
 - *inline* : éléments d’une ligne, se placent les uns à côté des autres
 - *block* : éléments en forme de blocs, se positionnent les uns en-dessous des autres et peuvent être redimensionnés
@@ -107,6 +112,7 @@ Le corps ne prend plus toute la largeur car ce n’est plus un bloc. La section 
 ----
 
 ## Les positionnements absolu, fixe et relatif
+
 Il existe d’autres techniques pour positionner avec précision des éléments sur la page :
 - positionnement absolu : placer un élément n’importe où sur la page (**absolute**)
 - positionnement fixe : comme le positionnement absolu mais l’élément reste toujours visible même si on descend dans la page (**fixed**)
@@ -115,7 +121,8 @@ Il existe d’autres techniques pour positionner avec précision des éléments 
 Comme pour les flottants, les positionnements fonctionnent aussi sur des balises de type inline. Toutefois, on l’utilise le plus souvent sur des balises block.
 
 ### Le positionnement absolu
-Il permet de placer un élément n’importe où dans la page.
+
+Il permet de placer un élément n’importe où dans la page.  
 Il faut utiliser la propriété **position** et aussi utiliser au moins deux des quatres propriétés CSS **left** (position par rapport à la gauche de la page), **right** (position par rapport à la droite de la page), **top** et **bottom**.
 
 ```css
@@ -152,6 +159,7 @@ element2
 Le positionnement absolu ne se fait pas toujours par rapport au coin supérieur gauche de la fenêtre. Par exemple un bloc A positionné en absolu dans un autre bloc B lui-même positionné en absolu (ou fixe ou relatif), le bloc A se positionnera alors dans le coin supérieur gauche du bloc B.
 
 ### Le positionnement fixe
+
 Le principe est le même que pour le positionnement absolu sauf que le bloc reste fixé à sa position même si on descend plus bas dans la page. Cela peut-être utile par exemple pour conserver un menu en descendant dans la page.
 ```css
 element
@@ -163,7 +171,8 @@ element
 ```
 
 ### Le positionnement relatif
-Plus délicat, il peut vite devenir difficile à utiliser. Il permet d’effectuer des “ajustements” : l’élément est décalé par rapport à sa position initiale.
+
+Plus délicat, il peut vite devenir difficile à utiliser. Il permet d’effectuer des “ajustements” : l’élément est décalé par rapport à sa position initiale.  
 Prenons par exemple un texte important, situé entre deux balises `<strong>`.
 ```css
 strong
