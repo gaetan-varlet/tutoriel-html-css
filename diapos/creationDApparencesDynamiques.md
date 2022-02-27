@@ -59,7 +59,7 @@ a:active /* Quand le visiteur clique sur le lien */
 }
 ```
 
-### `:focus` : lorsque l’élément est sélectionné
+### `:focus` lorsque l’élément est sélectionné
 
 Le pseudo-format `:focus` applique un style lorsque le l’élément est sélectionné.
 Sous Chrome et Safari, l’effet se voit que si l’on appuie sur la touche Tab.
