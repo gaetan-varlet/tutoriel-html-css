@@ -9,6 +9,7 @@ puis, CSS est apparu et on a commencé à faire une mise en page à l’aide de 
 ----
 
 ## Un conteneur, des éléments
+
 Le principe de mise en page avec Flexbox est simple : on définit un conteneur et à l’intérieur on y place plusieurs éléments. Sur une page web, il est possible d’avoir plusieurs conteneurs.
 
 Le conteneur est une balise HTML, et les éléments sont d’autres balises HTML à l’intérieur :
@@ -27,6 +28,7 @@ Par défaut, les éléments vont se mettre les uns en-dessous des autres, car ce
 ----
 
 ## Soyez flex !
+
 Découvrons Flexbox. Avec une seule propriété CSS, tout change. Cette propriété s’appelle **flex** et s’applique au conteneur. Les blocs se placent alors par défaut côte à côte.
 
 ![Placement par défaut des blocs](images/flexbox2.png)
@@ -39,6 +41,7 @@ Découvrons Flexbox. Avec une seule propriété CSS, tout change. Cette proprié
 ```
 
 ### La direction
+
 Flexbox permet d’agencer les éléments dans le sens que l’on veut avec **flex-direction** :
 - *row* : organisés sur une ligne (par défaut)
 - *column* : organisés sur une colonne
@@ -56,6 +59,7 @@ Flexbox permet d’agencer les éléments dans le sens que l’on veut avec **fl
 C’est pareil qu’au début, sans Flexbox mais maintenant que les éléments sont flex, ils ont un tas d’autres propriétés utiles que nous allons voir.
 
 ### Le retour à la ligne
+
 Par défaut, les blocs essaient de rester sur la même ligne s’ils n’ont plus de place, ce qui peut provoquer des bugs de design parfois. Pour demander à ce que les blocs aillent à la ligne lorsqu’ils n’ont plus la place, il faut utiliser **flex-wrap** qui prend les valeurs :
 - *nowrap* : pa de retour à la ligne (par défaut)
 - *wrap* : les éléments vont à la ligne lorsqu’il n’y a plus la place
@@ -78,6 +82,7 @@ Par défaut, les blocs essaient de rester sur la même ligne s’ils n’ont plu
 Les éléments sont organisés soit horizontalement, soit verticalement. Cela définit ce que l’on appelle **l’axe principal**. Il y a aussi un **axe secondaire** (appelé cross axis). Si l’axe principal est l’axe horizontal, l’axe secondaire est l’axe vertical.
 
 **Aligner sur l’axe principal**
+
 Partons sur des éléments organisés horizontalement (cas par défaut). Pour changer leur alignement, on va utiliser **justify-content** qui peut prendre les valeurs :
 - *flex-start* : alignés au début (par défaut)
 - *flex-end* : alignés à la fin
@@ -110,6 +115,7 @@ Avec une direction verticale (column), le centrage fonctionne de la même façon
 ![Alignement des blocs](images/flexbox5.png)
 
 **Aligner sur l’axe secondaire**
+
 Si l’axe principal est horizontal, l’axe secondaire est vertical, et inversement.
 Avec **align-items**, on peut changer l’alignement sur l’axe secondaire, avec les valeurs suivantes :
 - *stretch* : les éléments sont étirés sur tout l’axe (valeur par défaut)
@@ -130,6 +136,7 @@ Avec **align-items**, on peut changer l’alignement sur l’axe secondaire, ave
 ![Alignement des blocs](images/flexbox6.png)
 
 **Aligner sur un seul élément**
+
 Il est possible de faire une exception pour un seul des éléments sur l’axe secondaire avec **align-self**.
 ```css
 #conteneur
@@ -151,6 +158,7 @@ Il est possible de faire une exception pour un seul des éléments sur l’axe s
 ----
 
 ## Répartir plusieurs lignes
+
 S’il y a plusieurs lignes dans la Flexbox, on peut choisir comment celles-ci seront réparties avec **align-content**. Cette propriété n’a aucun effet s’il n’y a qu’une seule ligne dans la Flexbox.
 Prenons un cas d’un conteneur qui contient 12 éléments.
 On autorise les éléments à aller à la ligne avec **flex-wrap** comme vu avant.
@@ -176,6 +184,7 @@ Jusque-là, rien de nouveau. Voyons voir comment les lignes se répartissent ave
 ----
 
 ## Rappel à l’ordre
+
 Sans changer le code HTML, on peut modifier l’ordre des éléments en CSS grâce à la propriété **order**. Indiquer simplement un nombre et les éléments seront triés du plus petit au plus grand nombre.
 ```css
 #conteneur
@@ -205,6 +214,7 @@ Sans changer le code HTML, on peut modifier l’ordre des éléments en CSS grâ
 ----
 
 ## Encore plus flex : faire grossir ou maigrir les éléments
+
 Avec la propriété **flex**, on peut permettre à un élément de grossier pour occuper tout l’espace restant.
 ```css
 .element:nth-child(2)
