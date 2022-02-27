@@ -1,14 +1,12 @@
 # Structurer sa page
 
-----
-
 Il est conseillé d’utiliser des balises HTML dédiées à la structuration du site. Elles ont été introduites en HTML5 et permettent de distinguer l’en-tête, le menu de navigation, etc…
 
 ![Structure d'une page HTML](images/structurePage.png "les différentes sections d'une page HTML")
 
 Les différentes balises :
 - `<header>` : en-tête
-  - on y trouve souvent un logo, une bannière, le slogan du site…
+  - on y trouve souvent un logo, une bannière, le slogan du site...
   - il peut y avoir plusieurs en-têtes dans la page, par exemple un par section
 - `<footer>` : pied de page
   - se trouve généralement en bas de la page
@@ -25,4 +23,5 @@ Les différentes balises :
   - portion généralement autonome de la page
 
 Ces balises peuvent être imbriquées les unes dans les autres. Par exemple, une section peut avoir sa propre en-tête.
+
 Ces balises ne s’occupent pas de la mise en page, ce sera fait en CSS. Elles servent uniquement à bien structurer la page et à indiquer à l’ordinateur le sens du texte qu’elles contiennent. On pourrait très bien placer l’en-tête en bas de la page si on le souhaite.
