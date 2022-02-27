@@ -1,23 +1,21 @@
 # Formatage du texte
-On va apprendre à modifier l’apparence du texte, on dit qu’on le met en forme.
-
-----
 
 ## La taille
+
 Pour modifier, la taille, on utilise la propriété CSS **font-size**.
 - indiquer une taille absolue : en pixels (px), en centimètres (cm) ou millimètres (mm). Très précis mais à éviter car risque d’indiquer une taille trop petite pour certains lecteurs.
 ```css
  {font-size: 16px;}
 ```
-- indiquer une taille relative : en pourcentage, “em” ou “ex”. Technique plus souple qui a l’avantage de s’adapter facilement aux préférences de taille des visiteurs.  
-Valeur prédéfini : xx-small, x-small, small, medium, large, x-large, xx-large
-```css
-{font-size: small}
-```
-- indiquer la taille en em. (taille normale égal à 1em)
-```css
-{font-size: 1.3em;}
-```
+- indiquer une taille relative : technique plus souple qui a l’avantage de s’adapter facilement aux préférences de taille des visiteurs
+    - valeurs prédéfinies : *xx-small, x-small, small, medium, large, x-large, xx-large*
+    ```css
+    {font-size: small}
+    ```
+    - indiquer la taille en em. (taille normale égale à 1em)
+    ```css
+    {font-size: 1.3em;}
+    ```
 
 ----
 
