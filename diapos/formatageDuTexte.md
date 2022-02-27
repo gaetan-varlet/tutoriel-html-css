@@ -59,6 +59,7 @@ La propriété CSS pour mettre en gras est **font-weight** et prend les valeurs 
 - *normal* : texte normal (par défaut)
 
 ### Soulignement et autres décorations
+
 La propriété CSS associée porte bien son nom : **text-decoration**. Voici ces différentes valeurs :
 - *underline* : souligné
 - *line-through* : barré
@@ -67,6 +68,7 @@ La propriété CSS associée porte bien son nom : **text-decoration**. Voici ces
 - *none* : normal (par défaut)
 
 ### L’alignement
+
 Le langage CSS permet de faire tous les alignements connus. On utilise la propriété **text-align**. Les valeurs sont les suivantes :
 - *left* : par défaut
 - *center*
@@ -76,8 +78,9 @@ Le langage CSS permet de faire tous les alignements connus. On utilise la propri
 Il n’est pas possible de modifier l’alignement du texte d’une balise inline (comme `<span>, <a>, <em>, <strong>...`). L’alignement ne fonctionne que sur des balises de type block (`<p>, <div>, <h1>...`) et c’est logique car on ne peut pas modifier l’alignement de quelques mots au milieu d’un paragraphe.
 
 ### Les flottants
-Le CSS permet de faire flotter un élément autour du texte. On dit aussi qu’on fait un habillage. La propriété est float, elle prend 2 valeurs : *left* et *right*.
-On peut utiliser la propriété aussi bien sur des balises block que sur des balises inline. Il est courant de faire flotter une image pour qu’elle soit habillée par du texte.
+
+- Le CSS permet de faire flotter un élément autour du texte. On dit aussi qu’on fait un habillage. La propriété est float, elle prend 2 valeurs : *left* et *right*.
+- On peut utiliser la propriété aussi bien sur des balises block que sur des balises inline. Il est courant de faire flotter une image pour qu’elle soit habillée par du texte.
 
 Il faut par exemple mettre une image dans un paragraphe et ensuite faire flotter cette image en CSS.
 ```html
@@ -93,6 +96,7 @@ Il faut par exemple mettre une image dans un paragraphe et ensuite faire flotter
 ```
 
 **Stopper un flottant**
+
 Pour faire continuer le texte en dessous d’un flottant et non à côté, il faut utiliser la propriété **clear** qui peut prendre trois valeurs :
 - *left* : le texte se poursuit en-dessous après un `float: left;`
 - *right* : le texte se poursuit en-dessous après un `float: right;`
