@@ -1,12 +1,13 @@
 # Les bordures et les ombres
 
-----
-
 ## Bordures standard
-Il existe de nombreuses propriétés CSS : **border-width**, **border-color**, **border-style**…
-Il est aussi possible d’utiliser la super propriété **border** qui regroupe l’ensemble de ces propriétés. On peut utiliser jusqu’à trois valeurs pour modifier l’apparence de la bordure :
+
+- Il existe de nombreuses propriétés CSS : **border-width**, **border-color**, **border-style**…
+- Il est aussi possible d’utiliser la super propriété **border** qui regroupe l’ensemble de ces propriétés.
+
+On peut utiliser jusqu’à trois valeurs pour modifier l’apparence de la bordure :
 - **la largeur** : largeur de la bordure, en pixels, comme 2px
-- **la couleur** : couleur de la bordure, soit un nom de couleur (black, red…), soit une valeur hexadécimale (#FF0000), soit une valeur RGB
+- **la couleur** : couleur de la bordure, soit un nom de couleur (black, red…), soit une valeur hexadécimale (`#FF0000`), soit une valeur RGB
 - **le type de bordure** : il existe différents types de bordures
   - *none* : pas de bordure (par défaut)
   - *solid* : trait simple
@@ -28,8 +29,11 @@ Il est aussi possible d’utiliser la super propriété **border** qui regroupe 
 ----
 
 ## Bordures arrondies
-Les bordures arrondies sont facilement utilisable avec le CSS3.
-La propriété **border-radius** va nous permettre d’arrondir facilement les angles de n’importe quel élément. Il suffit d’indiquer la taille de l’arrondi en pixels. L’arrondi se voit si l’élément a des bordures ou à une couleur de fond.
+
+- Les bordures arrondies sont facilement utilisable avec le CSS3.
+- La propriété **border-radius** va nous permettre d’arrondir facilement les angles de n’importe quel élément.
+- Il suffit d’indiquer la taille de l’arrondi en pixels. L’arrondi se voit si l’élément a des bordures ou à une couleur de fond.
+
 ```css
 p
 {
@@ -56,9 +60,10 @@ p
 ----
 
 ## Les ombres
+
 C’est une nouveauté CSS3. Nous allons voir les ombres des boîtes et les ombres du texte.
 
-**box-shadow : les ombres des boîtes**
+### box-shadow : les ombres des boîtes
 La propriété **box-shadow** s’applique à tout le bloc et prend quatre valeurs dans l’ordre suivant :
 1. le décalage horizontale de l’ombre
 2. le décalage verticale de l’ombre
@@ -73,10 +78,10 @@ p
 }
 ```
 
-On peut ajouter une cinquième valeur facultative : *inset*. Dans ce cas, l’ombre sera placée à l’intérieur du bloc, pour donner un effet enfoncé.
+On peut ajouter une cinquième valeur facultative : **inset**. Dans ce cas, l’ombre sera placée à l’intérieur du bloc, pour donner un effet enfoncé.
 
 
-**text-shadow : l’ombre du texte**
+### text-shadow : l’ombre du texte
 Avec la propriété **text-shadow**, il est possible d’ajouter une ombre directement sur les lettres du texte. Les valeurs fonctionnent exactement de la même façon que box-shadow.
 ```css
 p
