@@ -94,11 +94,11 @@ Il s'agit d'informations sur la page web : les métadonnées du document
 - l'ordinateur travaille en binaire, groupé en groupe de 8 bits, 1 octet en français (1 byte en anglais)
 - 1 octet permet de représenter 2^8 caractères, 256 possibilités, des nombres allant de 0 à 255
 - le principe de l'encodage est de faire correspondre un octet à un caractère de notre alphabet
-- la table ASCII (American Standard) utilise 7 bits (128 nombres), par exemple a correspond au nombre 97. Cette table ne gère pas les caractères accentués
+- la table ASCII (American Standard) utilise 7 bits (128 nombres), par exemple `a` correspond au nombre 97. Cette table ne gère pas les caractères accentués
 - la table Windows-1252, utilise 8 bits, contient donc d'autres caractères, notamment les caratères accentués européens
 - chaque pays avait son propre encodage, pour simplifier la compatibilité est arrivée le **jeu de caractères** **Unicode** qui contient tous les caractères du monde (ce n'est pas un encodage)
 - il est basé sur les 128 premiers caractères ASCII
-- le symbole n'est pas à la même position en Unicode (position 8364) qu'en Windows-1252 (position 128)
+- le symbole euro n'est pas à la même position en Unicode (position 8364) qu'en Windows-1252 (position 128)
 - l'encodage **UTF-8** va représenter les nombres de 0 à 127 sur 1 seul octet, à partir d'une certaine valeur 2 octets, puis 3 octets et 4 octets
 - il y a un nombre dynamique d'octets selon le caractère à représenter, pour éviter d'encoder tous les caractères sur plusieurs octets pour ne pas utiliser de l'espace inutilement
 - pour savoir si le caractère est représenté par un ou plusieurs octets, on utilise les premiers bits d'un octet
