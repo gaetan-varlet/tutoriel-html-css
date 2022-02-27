@@ -62,7 +62,7 @@ Il est possible d’écrire des commentaires avec les balises. Tout le monde peu
  
 ----
 
-## L'en-tête <head>
+## L'en-tête <head>
 
 Il s'agit d'informations sur la page web : les métadonnées du document
 - `<title>Titre</title>` : titre de la page, utilisé par les moteurs de recherche
@@ -89,7 +89,7 @@ Il s'agit d'informations sur la page web : les métadonnées du document
 
 ----
 
-## L'encodage
+## L'encodage
 
 - l'ordinateur travaille en binaire, groupé en groupe de 8 bits, 1 octet en français (1 byte en anglais)
 - 1 octet permet de représenter 2^8 caractères, 256 possibilités, des nombres allant de 0 à 255
