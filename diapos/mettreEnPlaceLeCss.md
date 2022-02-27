@@ -1,7 +1,9 @@
 # Mettre en place le CSS
 
 ## Le CSS
-Le CSS sert à gérer la mise en forme de notre site. Il permet de choisir la couleur du texte, la police utilisée, la taille du texte, les bordures, le fond... Il permet aussi de faire la mise en page du site, par exemple de placer un menu à gauche et qu’il occupe telle largeur, l’en-tête du site soit calé en haut et qu’il soit toujours visible, etc...
+- Le CSS sert à gérer la mise en forme des pages web.
+- Il permet de choisir la couleur du texte, la police utilisée, la taille du texte, les bordures, le fond...
+- Il permet aussi de faire la mise en page du site, par exemple de placer un menu à gauche et qu’il occupe telle largeur, l’en-tête du site soit calé en haut et qu’il soit toujours visible, etc...
 
 Il est possible d’aller sur le site https://caniuse.com/ pour voir la compatibilité des fonctionnalités HTML et CSS sur différentes navigateurs.
 
@@ -23,7 +25,6 @@ On peut l’écrire dans 3 endroits différents :
 
     <body>
         <h1>Mon super site</h1>
-
         <p>Bonjour et bienvenue sur mon site !</p>
         <p>Pour le moment, mon site est un peu <em>vide</em>. Patientez encore un peu !</p>
     </body>
@@ -80,7 +81,7 @@ Ajouter un attribut `style` à n’importe quelle balise.
 ## Appliquer un style : sélectionner une balise
 
 Dans un code CSS, on trouve trois éléments différents :
-- **des noms de balises :** on écrit les noms des balises dont on veut modifier l’apparence. Pour modifier l’apparence des balises `<p>`, je dois écrire p.
+- **des noms de balises (sélecteurs) :** on écrit les noms des balises dont on veut modifier l’apparence. Pour modifier l’apparence des balises `<p>`, je dois écrire p.
 - **des propriétés CSS :** les effets de style de la page sont rangés dans des propriétés. Il y a par exemple la propriété color qui permet d’indiquer la couleur du texte, font-size pour la taille du texte...
 - **les valeurs :** pour chaque propriété CSS, on doit indiquer une valeur, par exemple pour la propriété color, il faut indiquer le nom de la couleur.
 
