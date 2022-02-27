@@ -18,7 +18,6 @@
   - [Formatage du texte](diapos/formatageDuTexte.md)
   - [La couleur et le fond](diapos/laCouleurEtLeFond.md)
   - [Les bordures et les ombres](diapos/lesBorduresEtLesOmbres.md)
-  - [Création d’apparences dynamiques](diapos/creationDApparencesDynamiques.md)
 - Mise en page du site
   - [Le modèle des boîtes](diapos/leModeleDesBoites.md)
   - [La mise en page avec Flexbox](diapos/laMiseEnPageAvecFlexbox.md)

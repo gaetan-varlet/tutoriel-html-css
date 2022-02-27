@@ -184,40 +184,93 @@ CSS :
 
 ----
 
-## Appliquer un style : les sélecteurs avancés
+## Les différents sélecteurs
 
 En CSS, le plus difficile est de savoir cibler le texte dont on veut changer la forme. Pour cibler (ou sélectionner) les éléments de la page à modifier, on utilise ce qu’on appelle des **sélecteurs**.
 
-*Les sélecteurs que l’on connaît déjà :*
-- p
-- h1
-- em
-- etc...
-- .class
-- #id
+### Les sélecteurs simples
 
-*Les sélecteurs avancés :*
-- \* : sélecteur universelle qui sélectionne toutes les balises sans exception.
+- **les sélecteurs de type** : `p`, `h1`, `em`...
+- **les sélecteurs de classe** : `.class`
+- **les sélecterurs d'indentifiant** : `#id`
+- **le sélecteur universel** `*` sélectionne toutes les balises sans exception
  ```css
 *
 {
 }
  ```
+ - **les sélecteurs d'attribut**
+    - A[attribut] : une balise qui possède un attribut.
+    Par exemple, a[title] sélectionne tous les liens qui possèdent un attribut title
+    - A[attribut=”Valeur”] : une balise qui possède un attribut avec une valeur exacte
+    - A[attribut*=”Valeur”] : idem, l’attribut doit cette fois contenir le mot Valeur.
 
-- A B : une balise contenu dans une autre
-Par exemple, pour sélectionner toutes les balises `<em>` situées à l’intérieur d’une balise `<h3>`.
+### Les combinateurs
 
+- **les sélecteurs de voisin direct** : `A + B`, sélectionne la première balise B située après une balise A
+- **les sélecteurs de voisin** : `A ~ B`
+- **les sélecteurs d'éléments enfants** : `A > B` sélectionne tous les éléments B directement situés sous un élément A
+- **les sélecteurs d'éléments descendants** : `A B` sélectionne tous les éléments B descendants (pas nécessairement direct) d'un élément A
 ```css
 h3 em
 {
 
 }
 ```
+- **le combinateur de colonne** : `A || B`
 
-- A + B : une balise qui en suite une autre. Sélectionne la première balise B située après une balise A
-- A[attribut] : une balise qui possède un attribut.
-Par exemple, a[title] sélectionne tous les liens qui possèdent un attribut title
-- A[attribut=”Valeur”] : une balise qui possède un attribut avec une valeur exacte
-- A[attribut*=”Valeur”] : idem, l’attribut doit cette fois contenir le mot Valeur.
+### Les pseudo-classes
 
-Il existe beaucoup d’autres sélecteurs. Nous en découvrirons certains dans la suite du cours.
+Ils permettent de cibler des éléments selon une information d'état non stockée dans l'arbre du document. Cela permet de modifier l'apparence des éléments de manière dynamiquen en ajoutant l'information après le nom de la balise
+- `:hover` au survol
+    - souvent utilisé sur les liens mais il est possible de modifier l’apparence de n’importe quel élément comme les paragraphes par exemple lorsqu’on pointe dessus
+    ```css
+    a /* Liens par défaut (non survolés) */
+    {
+    text-decoration: none;
+    color: red;
+    font-style: italic;
+    }
+
+    a:hover /* Apparence au survol des liens */
+    {
+    text-decoration: underline;
+    color: green;
+    }
+    ```
+- `:active` au moment du clic
+    - permet d’appliquer un style particulier au moment du clic
+    - en pratique, il n’est utilisé que sur les liens. Le lien gardera cette apparence très peu de temps. On peut par exemple changer la couleur de fond du lien lorsqu’on clique dessus
+    ```css
+    a:active /* Quand le visiteur clique sur le lien */
+    {
+        background-color: #FFCC66;
+    }
+    ```
+- `:focus` lorsque l'élément est sélectionné
+    - applique un style lorsque le l’élément est sélectionné. L'effet se voit que si l’on appuie sur la touche Tab. Ce pseudo-format pourra être appliqué à d’autres balises HTML notamment les formulaires
+    ```css
+    a:focus /* Quand le visiteur sélectionne le lien */
+    {
+        background-color: #FFCC66;
+    }
+    ```
+- `:visited` lorsque le lien a déjà été consulté
+    - il est possible d’appliquer un style à un lien vers une page qui a déjà été vue. Par défaut, le navigateur colore le lien en violet
+    - en pratique, sur les liens consultés, on ne peut pas changer beaucoup de choses à part la couleur
+    ```css
+    a:visited /* Quand le visiteur a déjà vu la page concernée */
+    {
+        color: #AAA; /* Appliquer une couleur grise */
+    }
+    ```
+    - si vous ne souhaitez pas que les liens déjà visités soient colorés d’une façon différente, il faudra leur appliquer la même couleur qu’aux liens normaux.
+
+### Les pseudo-éléments
+
+Ils permettent de mettre en forme certaines parties de l'élément ciblé
+```css
+p::first-line {
+    color: blue /* permet d'écrire en bleu la première ligne de chaque p */
+}
+```
