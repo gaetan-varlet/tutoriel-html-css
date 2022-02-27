@@ -11,6 +11,7 @@
   - [Les tableaux](diapos/lesTableaux.md)
   - [Les formulaires](diapos/lesFormulaires.md)
   - [La vidéo et l'audio](diapos/laVideoEtLAudio.md)
+  - [Structurer sa page](diapos/structurerSaPage.md)
   - [Les outils de développement](diapos/outilsDev.md)
 - La mise en forme avec CSS
   - [Mettre en place le CSS](diapos/mettreEnPlaceLeCss.md)
@@ -19,7 +20,6 @@
   - [Les bordures et les ombres](diapos/lesBorduresEtLesOmbres.md)
   - [Création d’apparences dynamiques](diapos/creationDApparencesDynamiques.md)
 - Mise en page du site
-  - [Structurer sa page](diapos/structurerSaPage.md)
   - [Le modèle des boîtes](diapos/leModeleDesBoites.md)
   - [La mise en page avec Flexbox](diapos/laMiseEnPageAvecFlexbox.md)
   - [Quelques autres techniques de mise en page](diapos/quelquesAutresTechniquesDeMiseEnPage.md)
