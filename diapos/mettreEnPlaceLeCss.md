@@ -1,7 +1,5 @@
 # Mettre en place le CSS
 
-----
-
 ## Le CSS
 Le CSS sert à gérer la mise en forme de notre site. Il permet de choisir la couleur du texte, la police utilisée, la taille du texte, les bordures, le fond... Il permet aussi de faire la mise en page du site, par exemple de placer un menu à gauche et qu’il occupe telle largeur, l’en-tête du site soit calé en haut et qu’il soit toujours visible, etc...
 
@@ -43,7 +41,9 @@ p
 ```
 
 **Dans l’en-tête <head> du fichier HTML**
-Il faut insérer le code CSS directement dans une balise `<style>` à l’intérieur de l’en-tête `<head>`.*
+
+Il faut insérer le code CSS directement dans une balise `<style>` à l’intérieur de l’en-tête `<head>`.
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -68,7 +68,9 @@ Il faut insérer le code CSS directement dans une balise `<style>` à l’intér
 ```
 
 **Directement dans les balises**
+
 Ajouter un attribut `style` à n’importe quelle balise.
+
 ```html
 <p style="color: blue;">Bonjour et bienvenue sur mon site !</p>
 ```
@@ -76,6 +78,7 @@ Ajouter un attribut `style` à n’importe quelle balise.
 ----
 
 ## Appliquer un style : sélectionner une balise
+
 Dans un code CSS, on trouve trois éléments différents :
 - **des noms de balises :** on écrit les noms des balises dont on veut modifier l’apparence. Pour modifier l’apparence des balises `<p>`, je dois écrire p.
 - **des propriétés CSS :** les effets de style de la page sont rangés dans des propriétés. Il y a par exemple la propriété color qui permet d’indiquer la couleur du texte, font-size pour la taille du texte...
@@ -119,8 +122,7 @@ h1, em
 }
 ```
 
-**Des commentaires dans du CSS**
-Il suffit de mettre du texte entre /\* et \*/
+**Des commentaires dans du CSS** : il suffit de mettre du texte entre /\* et \*/
 
 ----
 
@@ -163,6 +165,7 @@ En CSS, pour définir les propriétés d’un attribut id, il faut faire précé
 Pour ne pas mélanger les deux, il faut retenir que deux balises peuvent avoir le même nom avec l’attribut class. Un nom d’id doit en revanche être unique dans la page HTML.
 
 ### Les balises universelles
+
 Le problème de class et id est que ce sont des attributs et qu’ils s’appliquent donc à une balise entière comme un paragraphe. Si on souhaite modifier uniquement un mot dans le paragraphe, il faut donc utiliser `<span>` par exemple, ou `<div>` dans d'autres cas.
 
 Seul le mot bienvenue va s’écrire en bleu.
@@ -181,6 +184,7 @@ CSS :
 ----
 
 ## Appliquer un style : les sélecteurs avancés
+
 En CSS, le plus difficile est de savoir cibler le texte dont on veut changer la forme. Pour cibler (ou sélectionner) les éléments de la page à modifier, on utilise ce qu’on appelle des **sélecteurs**.
 
 *Les sélecteurs que l’on connaît déjà :*
