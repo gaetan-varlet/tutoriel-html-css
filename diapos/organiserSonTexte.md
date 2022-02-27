@@ -2,9 +2,7 @@
 
 ----
 
-## Organiser son texte
-
-### Les paragraphes
+## Les paragraphes
 
 La plupart du temps, on écrit du texte à l’intérieur d’un paragraphe.
 ```html
@@ -12,6 +10,7 @@ La plupart du temps, on écrit du texte à l’intérieur d’un paragraphe.
 ```
 
 **Sauter une ligne**
+
 Passer à la ligne dans l’éditeur de texte ne fait pas passer à la ligne à l’affichage dans le navigateur.
 Il est possible d’écrire un deuxième paragraphe pour aller à la ligne.
 ```html
