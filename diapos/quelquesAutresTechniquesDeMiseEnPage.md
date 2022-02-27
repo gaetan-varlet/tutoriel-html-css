@@ -79,7 +79,7 @@ Pour faire apparaître ces éléments, il faudra utiliser JavaScript. Certains s
 
 ## Le positionnement inline-block
 
-Dès qu’il y a un peu plus qu’un simple menu à mettre en page, les `clear: both` vont devenir complexe à utiliser. Une meilleure technique consiste à transformer les éléments en `inline-block`. Ils se positionnent les uns à côté des autres (exactement ce qu’on veut pour placer le menu et le corps de la page) et se peuvent avoir des dimensions précises (exactement ce qu’on veut aussi).
+Dès qu’il y a un peu plus qu’un simple menu à mettre en page, les `clear: both` vont devenir complexe à utiliser. Une meilleure technique consiste à transformer les éléments en `inline-block`. Ils se positionnent les uns à côté des autres (exactement ce qu’on veut pour placer le menu et le corps de la page) et peuvent avoir des dimensions précises (exactement ce qu’on veut aussi).
 
 ```css
 nav
