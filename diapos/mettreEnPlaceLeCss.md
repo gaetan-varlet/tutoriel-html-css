@@ -192,7 +192,7 @@ En CSS, le plus difficile est de savoir cibler le texte dont on veut changer la 
 
 - **les sélecteurs de type** : `p`, `h1`, `em`...
 - **les sélecteurs de classe** : `.class`
-- **les sélecterurs d'indentifiant** : `#id`
+- **les sélecteurs d'indentifiant** : `#id`
 - **le sélecteur universel** `*` sélectionne toutes les balises sans exception
  ```css
 *
@@ -274,3 +274,8 @@ p::first-line {
     color: blue /* permet d'écrire en bleu la première ligne de chaque p */
 }
 ```
+
+## Priorité des règles
+
+- c'est la règle la plus spécifique qui s'applique, par exemple une `class` est prioritaire à un élément type comme `p`
+- si un élément est défini plusieurs dois, c'est la dernière définition qui est appliquée
