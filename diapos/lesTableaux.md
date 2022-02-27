@@ -51,8 +51,8 @@ td /* Toutes les cellules des tableaux... */
 ![Premier tableau](images/tableau2.png)
 
 Pour avoir une seule bordure entre deux cellules, il faut utiliser une propriété CSS spécifique aux tableaux, **border-collapse**, qui signifie coller les bordures entre elles. Elles peut prendre deux valeurs :
-- collapse : bordures collés entre elles
-- separate : bordures dissociées (par défaut)
+- *collapse* : bordures collés entre elles
+- *separate* : bordures dissociées (par défaut)
 
 ```css
 table
@@ -63,9 +63,11 @@ table
 ![Premier tableau](images/tableau3.png)
 
 ### La ligne d’en-tête
+
 Elle se crée avec un `<tr>` comme pour les autres ligne mais les cellules sont encadrés par `<th>` au lieu des `<td>`. Le navigateur met en gras le texte des cellules d’en-tête, ce qui est modifiable par CSS.
 
 ### Titre du tableau
+
 Un tableau doit avoir un titre pour renseigner rapidement le visiteur sur le contenu du tableau, en utilisant la balise `<caption>` qui se place au tout début du tableau.
 
 ```html
