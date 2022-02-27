@@ -12,10 +12,11 @@ Pour modifier, la taille, on utilise la propriété CSS **font-size**.
     ```css
     {font-size: small}
     ```
-    - indiquer la taille en em. (taille normale égale à 1em)
+    - indiquer la taille en **em**, relative à la taille de fonte de l'élément parent (taille normale égale à 1em)
     ```css
     {font-size: 1.3em;}
     ```
+    - l'unité **rem** est relative à la taille de fonte utimosée pour l'élément racine `html`
 
 ----
 
