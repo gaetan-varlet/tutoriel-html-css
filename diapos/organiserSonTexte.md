@@ -39,24 +39,28 @@ Il y a 6 niveau de titres en HTML de très important à moins important :
 ----
 
 ## La mise en valeur
-mettre un peu valeur : encadrer les mots avec les balises `em`
+
+**Mettre un peu en valeur** : encadrer les mots avec les balises `em`
+
 ```html
 <em> </em>
 ```
 Le texte est mis en italique. C’est le navigateur qui choisit cela.
 
-Mettre bien en valeur : encadrer les mots avec les balises `strong`
+
+**Mettre bien en valeur** : encadrer les mots avec les balises `strong`
 ```html
 <strong> </strong>
 ```
 Le texte s’affiche en gras, toujours un choix du navigateur. La balise strong ne signifie pas mettre en gras mais important. En CSS, on pourra décider d’afficher les mots importants d’une autre façon.
 
-Marquer le texte : permet de faire ressortir visuellement une portion de texte pas forcément considéré comme important avec les balises `mark`. Par défaut, mark a pour effet de surligner le texte.
+**Marquer le texte** : permet de faire ressortir visuellement une portion de texte pas forcément considéré comme important avec les balises `mark`. Par défaut, mark a pour effet de surligner le texte.
 ```html
 <mark> </mark>
 ```
 
 **Ne pas oublier HTML pour le fond, CSS pour la forme**
+
 Les balises de mise en valeur ne servent pas à dire que le texte apparaîtra en gras, en italique ou souligné mais que le texte est important.
 
 ----
